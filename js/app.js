@@ -1,3 +1,7 @@
+/**
+ * @author Touhed Islam <mr.touhed.i@gmail.com>
+ */
+
 function pinGenarate() {
   const pin = Math.round(Math.random() * 10000);
   if (pin >= 999) {
